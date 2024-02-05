@@ -1,0 +1,256 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.logoPhoto{
+    margin: 1rem auto;
+    display: flex;
+    width: 850px;
+    border-radius: 2rem;
+    border: black;
+}
+
+.linkPoke{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #0A1C55;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%230A1C55' cx='50' cy='0' r='50'/%3E%3Cg fill='%23032660' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23002f6c' cx='50' cy='100' r='50'/%3E%3Cg fill='%23003977' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23004382' cx='50' cy='200' r='50'/%3E%3Cg fill='%23004e8d' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23005897' cx='50' cy='300' r='50'/%3E%3Cg fill='%230063a1' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006dab' cx='50' cy='400' r='50'/%3E%3Cg fill='%230078b4' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%230083bd' cx='50' cy='500' r='50'/%3E%3Cg fill='%23008ec6' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%230099ce' cx='50' cy='600' r='50'/%3E%3Cg fill='%2300a4d5' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300b0dd' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300bbe3' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300c6ea' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300d2f0' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300ddf5' cx='50' cy='900' r='50'/%3E%3Cg fill='%2300e9fa' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2317F4FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #0A1C55;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%230A1C55' cx='50' cy='0' r='50'/%3E%3Cg fill='%23032660' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23002f6c' cx='50' cy='100' r='50'/%3E%3Cg fill='%23003977' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23004382' cx='50' cy='200' r='50'/%3E%3Cg fill='%23004e8d' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23005897' cx='50' cy='300' r='50'/%3E%3Cg fill='%230063a1' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23006dab' cx='50' cy='400' r='50'/%3E%3Cg fill='%230078b4' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%230083bd' cx='50' cy='500' r='50'/%3E%3Cg fill='%23008ec6' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%230099ce' cx='50' cy='600' r='50'/%3E%3Cg fill='%2300a4d5' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300b0dd' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300bbe3' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300c6ea' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300d2f0' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300ddf5' cx='50' cy='900' r='50'/%3E%3Cg fill='%2300e9fa' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2317F4FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center center;
+}
+
+
+@media screen and (min-width: 560px){
+    .content {
+        max-width: 560px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+
+.normal {
+    background-color: #a6a877
+}
+.grass {
+    background-color: #77c850
+}
+.fire {
+    background-color: #ee7f30
+}
+.water {
+    background-color: #678fee
+}
+.electric {
+    background-color: #fed330
+}
+.ice {
+    background-color: #98d5d7
+}
+.ground {
+    background-color: #dfbf69
+}
+.flying {
+    background-color: #a98ff0
+}
+.poison {
+    background-color: #a040a0
+}
+.fighting {
+    background-color: #bf3029
+}
+.psychic {
+    background-color: #f65687
+}
+.dark {
+    background-color: #725847
+}
+.rock {
+    background-color: #b8a137
+}
+.bug {
+    background-color: #a8b720
+}
+.ghost {
+    background-color: #6e5896
+}
+.steel {
+    background-color: #b9b7cf
+}
+.dragon {
+    background-color: #6f38f6
+}
+.fairy {
+    background-color: #f9aec7
+}
+
+
+.pokemon .name{
+    color: #fff;
+    margin-bottom: .25rem;
+    text-transform: capitalize;
+}
+
+.pokemon .number{
+    color: #000;
+    align-items: center;
+    font-size: 1rem;
+} 
+
+.pokemon .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pokemon .detail .types{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pokemons{
+    padding: 1rem;
+}
+
+.pokemon {
+    padding: 1rem;
+    border-radius: 1rem;
+    display: block;
+    justify-content: center;
+    border: solid black;
+    width: 100%;
+    height: 638px;
+
+}
+
+.pokemon .detail .types .type{
+    color: #000000;
+    padding: 1rem 2rem;
+    margin: .125rem;
+    font-size: .8rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    border: solid black;
+}
+
+.pokemon .detail img {
+    max-width: 100%;
+    height: 120px;
+    width: 150px;
+    border: solid black;
+    border-radius: 1rem;
+    background-image: url(https://i.pinimg.com/736x/2b/3b/04/2b3b04771ccca26c3dd96d781b0117ca.jpg);
+    background-size: cover;
+    padding: .5rem;
+}
+
+#status{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+meter{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.weight{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 58px;
+}
+.weight img{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.height{
+    color: black;
+    display: block;
+    flex-direction: column;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+
+.height img{
+    width: 50px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.hp{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+.hpImg{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    mix-blend-mode: multiply;
+}
+
+.buttons{
+    color: #000000;
+    padding: auto;
+    margin: .125rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.buttons .nextButton{
+    border-radius: 1rem;
+}
+.buttons .prevButton{
+    border-radius: 1rem;
+}
+

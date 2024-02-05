@@ -19,8 +19,8 @@
 .water {
     background-color: #678fee
 }
-.eletric {
-    background-color: #f7cf2e
+.electric {
+    background-color: #fed330
 }
 .ice {
     background-color: #98d5d7
@@ -90,7 +90,7 @@
 
 .pokemon .number{
     color: #000;
-    opacity: 0.3;
+    opacity: 0.5;
     text-align: right;
     font-size: .625rem;
 } 
@@ -115,19 +115,22 @@
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
+    border: solid black;
 }
 
 .pokemon .detail .types .type{
-    color: #fff;
+    color: #000000;
     padding: .25rem .5rem;
     margin: .125rem;
     font-size: .625rem;
     border-radius: 1rem;
     filter: brightness(1.1);
     text-align: center;
+    border: solid black;
 }
 
 .pokemon .detail img {
     max-width: 100%;
-    height: 70px;
+    height: 85px;
+    filter: brightness(1.1);
 }
